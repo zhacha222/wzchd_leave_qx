@@ -1,0 +1,131 @@
+{
+	"id": "zhacha222.app.sub",
+	"name": "zhacha222应用订阅",
+	"author": "@zhacha222",
+	"icon": "",
+	"repo": "https://github.com/zhacha222/wzxy_leave_qx",
+	"apps": [
+		{
+			"id": "wzxy_leave_qx",
+			"name": "我在校园假条,
+			"keys": ["wzxy_leave_name","wzxy_leave_reason","wzxy_leave_starttime","wzxy_leave_endtime","wzxy_leave_number","wzxy_leave_phone","wzxy_leave_submitTime","wzxy_leave_createTime","wzxy_leave_teacherName","wzxy_leave_leaveLocation","wzxy_leave_leaveType"],
+			"settings": [
+			 {
+          "id": "YOUNTH_READ_Notify",
+          "name": "静默运行",
+          "val": true,
+          "type": "boolean",
+          "desc": "运行脚本时不发出系统弹窗通知"
+        },
+				{
+					"id": "wzxy_leave_name",
+					"name": "学生姓名",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "填写请假学生的姓名"
+				}
+				,
+				{
+					"id": "wzxy_leave_reason",
+					"name": "请假理由",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "请假理由，填中文"
+				}
+				,
+				{
+					"id": "wzxy_leave_starttime",
+					"name": "假期开始时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前一小时后"
+				}
+				,
+				{
+					"id": "wzxy_leave_endtime",
+					"name": "假期结束时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
+				},
+				{
+					"id": "wzxy_leave_number",
+					"name": "学号",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "学号"
+				},
+				{
+					"id": "wzxy_leave_phone",
+					"name": "手机号",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "手机号"
+				},
+				{
+					"id": "wzxy_leave_submitTime",
+					"name": "提交请假时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
+				},
+				{
+					"id": "wzxy_leave_createTime",
+					"name": "通过申请时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
+				},
+				{
+					"id": "wzxy_leave_teacherName",
+					"name": "辅导员姓名",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "辅导员姓名"
+				},
+				{
+					"id": "wzxy_leave_leaveLocation",
+					"name": "当前位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "\"陕西省西安市未央区汉城街道草滩五路\""
+				},
+				{
+					"id": "wzxy_leave_leaveType",
+					"name": "假期类型",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "病假 事假"
+				}
+			],
+			"author": "@zhacha222",
+			"repo": "https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
+			"icons": [
+				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
+			]
+		}
+	]
+}
