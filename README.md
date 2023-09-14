@@ -26,4 +26,4 @@ https://raw.githubusercontent.com/zhacha222/wzchd_leave_qx/main/leavebox.json
 
 ## 🎉特别鸣谢：
 
-* [@bean661：wozaixiaoyuanjkdkql](https://github.com/bean661/wozaixiaoyuanleaveQX)
+* [@bean661：wozaixiaoyuanleaveQX](https://github.com/bean661/wozaixiaoyuanleaveQX)
