@@ -17,108 +17,7 @@
           "type": "boolean",
           "desc": "运行脚本时不发出系统弹窗通知"
         },
-				{
-					"id": "wzxy_leave_name",
-					"name": "学生姓名",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "填写请假学生的姓名"
-				}
-				,
-				{
-					"id": "wzxy_leave_reason",
-					"name": "请假理由",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "请假理由，填中文"
-				}
-				,
-				{
-					"id": "wzxy_leave_starttime",
-					"name": "假期开始时间",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "格式 2023-06-28 10:00，不填则默认当前一小时后"
-				}
-				,
-				{
-					"id": "wzxy_leave_endtime",
-					"name": "假期结束时间",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
-				},
-				{
-					"id": "wzxy_leave_number",
-					"name": "学号",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "学号"
-				},
-				{
-					"id": "wzxy_leave_phone",
-					"name": "手机号",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "手机号"
-				},
-				{
-					"id": "wzxy_leave_submitTime",
-					"name": "提交请假时间",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
-				},
-				{
-					"id": "wzxy_leave_createTime",
-					"name": "通过申请时间",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
-				},
-				{
-					"id": "wzxy_leave_teacherName",
-					"name": "辅导员姓名",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "辅导员姓名"
-				},
-				{
-					"id": "wzxy_leave_leaveLocation",
-					"name": "当前位置",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "\"陕西省西安市未央区汉城街道草滩五路\""
-				},
-				{
-					"id": "wzxy_leave_leaveType",
-					"name": "假期类型",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "病假 事假"
-				},
+				
 				{
 					"id": "wzxy_leave_college",
 					"name": "学校名字",
@@ -144,7 +43,107 @@
 					"type": "textarea",
 					"autoGrow": false,
 					"rows": 1,
-					"desc": "2020级"
+					"desc": "格式 2020级"
+				},
+				{
+					"id": "wzxy_leave_name",
+					"name": "学生姓名",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "学生姓名"
+				},
+				{
+					"id": "wzxy_leave_number",
+					"name": "学号",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "学号"
+				},
+				{
+					"id": "wzxy_leave_phone",
+					"name": "手机号",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "手机号"
+				}，
+				{
+					"id": "wzxy_leave_leaveType",
+					"name": "假期类型",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "病假 事假 实习 丧假 婚假 探亲访友 公假 跨校区公假 其他"
+				}，
+				{
+					"id": "wzxy_leave_reason",
+					"name": "请假理由",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "请假理由，瞎吉儿编"
+				},
+				{
+					"id": "wzxy_leave_teacherName",
+					"name": "辅导员姓名",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "辅导员姓名"
+				},
+				{
+					"id": "wzxy_leave_leaveLocation",
+					"name": "当前位置",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "\"陕西省西安市未央区汉城街道草滩五路\""
+				},
+				{
+					"id": "wzxy_leave_starttime",
+					"name": "假期开始时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前一小时后"
+				}
+				,
+				{
+					"id": "wzxy_leave_endtime",
+					"name": "假期结束时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
+				},
+				{
+					"id": "wzxy_leave_submitTime",
+					"name": "提交请假时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
+				},
+				{
+					"id": "wzxy_leave_createTime",
+					"name": "通过申请时间",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "格式 2023-06-28 10:00，不填则默认当前两小时后"
 				}
 			],
 			"author": "@zhacha222",
