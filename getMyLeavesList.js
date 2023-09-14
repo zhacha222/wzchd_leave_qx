@@ -1,7 +1,5 @@
 const $ = new Env("请假列表");
 
-
-
 Date.prototype.format = function(fmt) {
   var o = {
      "M+" : this.getMonth()+1,                 //月份
