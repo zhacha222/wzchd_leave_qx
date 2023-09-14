@@ -1,4 +1,4 @@
-const $ = new Env("假条详情");
+const $ = new Env("假条凭证");
 
 Date.prototype.format = function(fmt) {
   var o = {
