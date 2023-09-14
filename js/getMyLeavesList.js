@@ -59,7 +59,10 @@ if($.start==="" && $.end === ""){
     $.end = getFormatTime(time,1)
 }
 
+
 body={
+  "code": 0,
+  "data": [{
     "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/mSk0dgt2l7T1fQ8g5icBbhzFP6ic6ibAtd4eQHyy41cBODzib7X5Hg0CptzBZicBLKJzOjGe3OsQibSSpq5uccrphwRA/132",
     "beginTime": $.start,
     "finalTime": $.end,
@@ -70,19 +73,16 @@ body={
     "name": $.name,
     "reason": $.reason,
     "status": 40  //40为进行中
-  }
+  }]
 
 }
-dataArray= JSON.parse($response.body);
 
-// 使用push方法将JSON对象添加到数组中
-dataArray.data.push(body);
 
-body = JSON.stringify(dataArray);
+body = JSON.stringify(body);
 
-console.log(dataArray);
+console.log(body);
 
-$done(dataArray);
+$done(body);
 
 
 
