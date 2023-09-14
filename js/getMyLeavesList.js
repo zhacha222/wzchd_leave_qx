@@ -76,6 +76,13 @@ body={
 
 }
 
+// 要插入的JSON对象
+let jsonObjectToInsert = JSON.parse($response.body.data);
+
+// 使用push方法将JSON对象添加到数组中
+body[0].data.push(jsonObjectToInsert);
+
+
 
 body = JSON.stringify(body);
 
