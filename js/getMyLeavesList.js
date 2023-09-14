@@ -78,7 +78,7 @@ body={
 dataArray= JSON.parse($response.body);
 
 // 使用push方法将JSON对象添加到数组中
-dataArray.data.push(body);
+dataArray[0].data.push(body);
 
 
 
