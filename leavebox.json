@@ -8,7 +8,7 @@
 		{
 			"id": "wzxy_leave_qx",
 			"name": "我在校园假条",
-			"keys": ["wzxy_leave_name","wzxy_leave_reason","wzxy_leave_starttime","wzxy_leave_endtime","wzxy_leave_number","wzxy_leave_phone","wzxy_leave_submitTime","wzxy_leave_createTime","wzxy_leave_teacherName","wzxy_leave_leaveLocation","wzxy_leave_leaveType"],
+			"keys": ["wzxy_leave_name","wzxy_leave_reason","wzxy_leave_starttime","wzxy_leave_endtime","wzxy_leave_number","wzxy_leave_phone","wzxy_leave_submitTime","wzxy_leave_createTime","wzxy_leave_teacherName","wzxy_leave_leaveLocation","wzxy_leave_leaveType","wzxy_leave_college","wzxy_leave_area","wzxy_leave_grade"],
 			"settings": [
 			 {
           "id": "YOUNTH_READ_Notify",
@@ -118,6 +118,33 @@
 					"autoGrow": false,
 					"rows": 1,
 					"desc": "病假 事假"
+				},
+				{
+					"id": "wzxy_leave_college",
+					"name": "学校名字",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "学校名字"
+				},
+				{
+					"id": "wzxy_leave_area",
+					"name": "校区",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "校区"
+				},
+				{
+					"id": "wzxy_leave_grade",
+					"name": "年级",
+					"val": "",
+					"type": "textarea",
+					"autoGrow": false,
+					"rows": 1,
+					"desc": "2020级"
 				}
 			],
 			"author": "@zhacha222",
