@@ -75,20 +75,18 @@ body={
   }]
 
 }
-
-// 要插入的JSON对象
-let jsonObjectToInsert = JSON.parse($response.body.data);
+dataArray= JSON.parse($response.body);
 
 // 使用push方法将JSON对象添加到数组中
-body[0].data.push(jsonObjectToInsert);
+dataArray[0].data.push(body);
 
 
 
-body = JSON.stringify(body);
+body = JSON.stringify(dataArray);
 
-console.log(body);
+console.log(dataArray);
 
-$done(body);
+$done(dataArray);
 
 
 
