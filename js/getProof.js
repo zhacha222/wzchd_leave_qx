@@ -74,7 +74,7 @@ body={
     "qrcode": qrcode,
     "start": $.start,
     "emergency": $.emergency,
-    "type": "事假",
+    "type": $.leaveType,
     "outSchoolLocation": "",
     "number": $.number,
     "teacher": $.teacher,
