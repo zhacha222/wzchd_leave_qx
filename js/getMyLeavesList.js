@@ -78,8 +78,6 @@ dataArray= JSON.parse($response.body);
 // 使用push方法将JSON对象添加到数组中
 dataArray.data.push(body);
 
-
-
 body = JSON.stringify(dataArray);
 
 console.log(dataArray);
