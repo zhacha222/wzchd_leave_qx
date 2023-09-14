@@ -7,7 +7,7 @@
 	"apps": [
 		{
 			"id": "wzxy_leave_qx",
-			"name": "我在校园假条,
+			"name": "我在校园假条",
 			"keys": ["wzxy_leave_name","wzxy_leave_reason","wzxy_leave_starttime","wzxy_leave_endtime","wzxy_leave_number","wzxy_leave_phone","wzxy_leave_submitTime","wzxy_leave_createTime","wzxy_leave_teacherName","wzxy_leave_leaveLocation","wzxy_leave_leaveType"],
 			"settings": [
 			 {
