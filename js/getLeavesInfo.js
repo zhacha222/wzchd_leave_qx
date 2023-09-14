@@ -1,4 +1,4 @@
-const $ = new Env("请假列表");
+const $ = new Env("假条详细信息");
 
 Date.prototype.format = function(fmt) {
   var o = {
