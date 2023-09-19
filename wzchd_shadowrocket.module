@@ -1,0 +1,14 @@
+#!name=我在校园假条模拟
+#!desc=Description Here
+
+[MITM]
+hostname = %APPEND% gwwzxy.chd.edu.cn
+
+
+[Script]
+
+模拟假条列表=type=http-response,pattern=^https?:\/\/gwwzxy\.chd\.edu\.cn\/leave2\/mobile\/student\/leave\/getMyLeavesList\?page=1&size=10,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zhacha222/wzxy_leave_qx/main/js/getMyLeavesList.js
+
+模拟假条凭证=type=http-response,pattern=^https:\/\/gwwzxy\.chd\.edu\.cn\/leave2\/mobile\/student\/leave\/getProof\?leavesId=[0-9]+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zhacha222/wzxy_leave_qx/main/js/getProof.js
+
+模拟假条详细信息=type=http-response,pattern=^https?:\/\/gwwzxy\.chd\.edu\.cn\/leave2\/mobile\/student\/leave\/getLeavesInfo\?leavesId=[0-9]+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zhacha222/wzxy_leave_qx/main/js/getLeavesInfo.js
